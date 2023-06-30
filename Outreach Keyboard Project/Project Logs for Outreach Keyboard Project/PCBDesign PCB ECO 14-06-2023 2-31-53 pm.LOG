@@ -1,0 +1,56 @@
+Added Component: Designator=BT1(9V Battery)
+Added Component: Designator=C1(Ceramic Capacitor)
+Added Component: Designator=C2(Electrolytic Capacitor)
+Added Component: Designator=R1(Resistor)
+Added Component: Designator=SP1(Speaker)
+Added Component: Designator=U1(555 Timer)
+Added Pin To Net: NetName=NetSW1_1 Pin=C1-2
+Added Pin To Net: NetName=NetR2_2 Pin=R1-1
+Added Pin To Net: NetName=NetSW1_1 Pin=U1-2
+Added Pin To Net: NetName=NetSW1_1 Pin=U1-6
+Added Pin To Net: NetName=NetR2_2 Pin=U1-7
+Change Net Name : Old Net Name=NetR2_2 New Net Name=NetR1_1
+Change Net Name : Old Net Name=NetSW1_1 New Net Name=NetC1_2
+Added Pin To Net: NetName=GND Pin=BT1-N
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=SP1-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC2_N Pin=C2-N
+Added Pin To Net: NetName=NetC2_N Pin=SP1-1
+Added Net: Name=NetC2_N
+Added Pin To Net: NetName=NetC2_P Pin=C2-P
+Added Pin To Net: NetName=NetC2_P Pin=U1-3
+Added Net: Name=NetC2_P
+Added Pin To Net: NetName=VCC Pin=BT1-P
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Pin To Net: NetName=VCC Pin=U1-4
+Added Pin To Net: NetName=VCC Pin=U1-8
+Added Net: Name=VCC
+Added Member To Class: ClassName=Schematic Member=Component BT1 9v Battery Contacts
+Added Member To Class: ClassName=Schematic Member=Component C1 50nF
+Added Member To Class: ClassName=Schematic Member=Component C2 10uF
+Added Member To Class: ClassName=Schematic Member=Component R1 47k
+Added Member To Class: ClassName=Schematic Member=Component R2 150k
+Added Member To Class: ClassName=Schematic Member=Component R3 82k
+Added Member To Class: ClassName=Schematic Member=Component R4 15k
+Added Member To Class: ClassName=Schematic Member=Component R5 15k
+Added Member To Class: ClassName=Schematic Member=Component R6 47k
+Added Member To Class: ClassName=Schematic Member=Component R7 22k
+Added Member To Class: ClassName=Schematic Member=Component R8 22k
+Added Member To Class: ClassName=Schematic Member=Component R9 82k
+Added Member To Class: ClassName=Schematic Member=Component R10 82k
+Added Member To Class: ClassName=Schematic Member=Component R11 39k
+Added Member To Class: ClassName=Schematic Member=Component R12 10k
+Added Member To Class: ClassName=Schematic Member=Component R13 27k
+Added Member To Class: ClassName=Schematic Member=Component R14 12k
+Added Member To Class: ClassName=Schematic Member=Component R15 22k
+Added Member To Class: ClassName=Schematic Member=Component R16 10k
+Added Member To Class: ClassName=Schematic Member=Component R17 22k
+Added Member To Class: ClassName=Schematic Member=Component R18 12k
+Added Member To Class: ClassName=Schematic Member=Component R19 18k
+Added Member To Class: ClassName=Schematic Member=Component R20 10k
+Added Member To Class: ClassName=Schematic Member=Component R21 18k
+Added Member To Class: ClassName=Schematic Member=Component R22 27k
+Added Member To Class: ClassName=Schematic Member=Component SP1 Small 8R PCB mount Speaker
+Added Member To Class: ClassName=Schematic Member=Component U1 555 Timer
